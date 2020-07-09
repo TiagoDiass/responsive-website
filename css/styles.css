@@ -114,3 +114,155 @@
     background-size: cover;
     background-position: center;
 }
+
+.services {
+    background: #12222D;
+    padding: 100px;
+    text-align: center;
+}
+
+.services .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.services .container .serviceBx {
+    position: relative;
+    background: #FFF;
+    width: 350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 20px;
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+
+    transition: box-shadow 0.2s;
+}
+
+.services .container .serviceBx:hover {
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+.services .container .serviceBx img {
+    max-width: 100px;
+}
+
+.services .container .serviceBx h2 {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.technology {
+    background: #3F8FFC;
+    width: 100%;
+    padding: 100px;
+    padding-top: 300px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.technology .contentBx {
+    max-width: 800px;
+}
+
+.technology .imgBx {
+    max-width: 250px;
+}
+
+.technology .imgBx img {
+    max-width: 100%;
+}
+
+.client {
+    background: #162C3B;
+    padding: 100px;
+    text-align: center;
+}
+
+.client .imgBx {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.client .imgBx img {
+    max-width: 200px;
+    margin: 20px;
+    opacity: 0.25;
+    cursor: pointer;
+
+    transition: opacity 0.2s;
+}
+
+.client .imgBx img:hover {
+    opacity: 0.8;
+}
+
+.testimonials {
+    position: relative;
+    padding: 100px;
+    background: #12222D;
+    text-align: center;
+}
+
+.testimonials .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.testimonials .container .contentBx {
+    background: #FFF;
+    padding: 60px 50px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    border-radius: 20px;
+
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.5);
+    transition: box-shadow 0.2s;
+}
+
+.testimonials .container .contentBx:hover {
+    box-shadow: 0 0 12px rgba(255, 255, 255, 0.5);
+}
+
+.testimonials .container .contentBx p {
+    font-style: italic;
+}
+
+.testimonials .container .contentBx h3 {
+    width: 100%;
+    text-align: end;
+    font-weight: 500;
+    color: #12222D;
+}
+
+.contact {
+    padding: 100px;
+    background: #162C3B;
+    text-align: center;
+}
+
+.imgBx2 {
+    background: url(../img//bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
