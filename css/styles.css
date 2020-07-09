@@ -266,3 +266,77 @@
     background-position: center;
     width: 50%;
 }
+
+.redBg {
+    background: url(../img//red.jpg) !important;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+}
+
+.form .inputBx {
+    margin-bottom: 40px;
+}
+
+.form .inputBx input {
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+
+    transition: border 0.2s;
+}
+
+.form .inputBx input:focus::placeholder,
+.form .inputBx textarea:focus::placeholder {
+    font-size: 0.9rem;
+}
+
+.form .inputBx input::placeholder,
+.form .inputBx textarea::placeholder {
+    color: #FFF;
+    transition: font-size 0.2s;
+}
+
+.form .inputBx textarea {
+    width: 100%;
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    font-size: 18px;
+    font-weight: 300;
+    min-height: 150px;
+    color: #FFF;
+    border-bottom: 2px solid #FFF;
+
+    resize: none;
+    transition: border 0.2s;
+}
+
+.form .inputBx input[type="submit"] {
+    border: 1px solid white;
+    padding: 12px 8px;
+    background-color: #FFF;
+    color: #162C3B;
+    font-weight: 500;
+    cursor: pointer;
+
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+
+    transition: filter 0.2s, box-shadow 0.2s;
+}
+
+.form .inputBx input[type="submit"]:hover {
+    filter: brightness(0.97);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.footer {}
