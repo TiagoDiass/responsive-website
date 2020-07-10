@@ -210,24 +210,25 @@
 }
 
 .testimonials {
-    position: relative;
     padding: 100px;
     background: #12222D;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .testimonials .container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 40px;
-    flex-wrap: wrap;
+    margin: 40px 0;
 }
 
 .testimonials .container .contentBx {
     background: #FFF;
     padding: 60px 50px;
-    width: 550px;
+    width: 45%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -393,7 +394,7 @@
     }
 
     .banner .content h2 {
-        font-size: 36px;
+        font-size: 26px;
     }
 
     .banner .content p {
@@ -437,5 +438,68 @@
     .technology .imgBx {
         margin-top: 40px;
         max-width: 250px;
+    }
+
+    .client {
+        padding: 50px;
+    }
+
+    .client .imgBx {
+        justify-content: center;
+    }
+
+    .testimonials {
+        padding: 50px;
+        width: 100%;
+    }
+
+    .testimonials .container {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .testimonials .container .contentBx {
+        padding: 60px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .testimonials .container .contentBx p {
+        font-size: 0.85rem;
+    }
+
+    .testimonials .container .contentBx h3 {
+        font-size: 0.85rem;
+    }
+
+    .testimonials .container .contentBx:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .contact {
+        padding: 50px;
+    }
+
+    .footer {
+        padding: 20px 50px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .footer ul {
+        margin-bottom: 20px;
+    }
+
+    .banner,
+    .about,
+    .services,
+    .technology,
+    .client,
+    .testimonials,
+    .contact,
+    .footer {
+        width: 100%;
     }
 }
