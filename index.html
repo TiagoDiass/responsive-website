@@ -18,6 +18,9 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
 
+    <!-- Animate on Scroll Lib -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
     <!-- My Own Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <title>Responsive Website</title>
@@ -45,10 +48,10 @@
     <!-- About -->
     <section class="about">
       <div class="contentBx">
-        <h2 class="heading">
+        <h2 class="heading" data-aos="fade-right">
           About Us
         </h2>
-        <p class="text">
+        <p class="text" data-aos="fade-right">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure pariatur, odio, consequatur
           totam possimus veniam sapiente impedit odit consequuntur esse voluptates tenetur ipsa
           sapiente impedit odit consequuntur esse voluptates tenetur ipsa Lorem ipsum dolor sit amet
@@ -67,15 +70,15 @@
 
     <!-- Services -->
     <section class="services">
-      <h2 class="heading">Our Services</h2>
+      <h2 class="heading" data-aos="fade-left">Our Services</h2>
 
-      <p class="text">
+      <p class="text" data-aos="fade-right">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure pariatur, odio, consequatur
         totam possimus veniam sapiente impedit odit consequuntur esse voluptates tenetur ipsa
         sapiente impedit odit consequuntur esse voluptates tenetur ipsa Lorem ipsum dolor sit amet
         consectetur adipisicing elit.
       </p>
-      <div class="container">
+      <div class="container" data-aos="fade-up">
         <div class="serviceBx">
           <div>
             <img src="img/icon1.png" alt="Icon 1" />
@@ -102,7 +105,7 @@
     <!-- Technology -->
     <section class="technology">
       <div class="contentBx">
-        <h2 class="heading">We use cutting edge technology</h2>
+        <h2 class="heading" data-aos="fade-right">We use cutting edge technology</h2>
 
         <p class="text">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure pariatur, odio, consequatur
@@ -111,21 +114,21 @@
           consectetur adipisicing elit Iure pariatur, odio, consequatur totam possimus veniam.
         </p>
       </div>
-      <div class="imgBx">
+      <div class="imgBx" data-aos="fade-left">
         <img src="img/tech.png" alt="Technologies" />
       </div>
     </section>
 
     <!-- Client -->
     <section class="client">
-      <h2 class="heading">Our Client</h2>
-      <p class="text">
+      <h2 class="heading" data-aos="fade-right">Our Client</h2>
+      <p class="text" data-aos="fade-left">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure pariatur, odio, consequatur
         totam possimus veniam sapiente impedit odit consequuntur esse voluptates tenetur ipsa
         sapiente impedit odit consequuntur esse voluptates tenetur ipsa Lorem ipsum dolor sit amet
         consectetur adipisicing elit Iure pariatur, odio, consequatur totam possimus veniam.
       </p>
-      <div class="imgBx">
+      <div class="imgBx" data-aos="fade-up">
         <img src="img/brand1.png" alt="Google" />
         <img src="img/brand2.png" alt="Amazon" />
         <img src="img/brand3.png" alt="Twitter" />
@@ -135,7 +138,7 @@
 
     <!-- Testimonials -->
     <section class="testimonials">
-      <h2 class="heading">What Our Client Say</h2>
+      <h2 class="heading" data-aos="fade-up">What Our Client Say</h2>
       <div class="container">
         <div class="contentBx">
           <p>
@@ -165,9 +168,9 @@
 
     <!-- Contact -->
     <section class="contact">
-      <h2 class="heading">Contact us</h2>
+      <h2 class="heading" data-aos="fade-right">Contact us</h2>
 
-      <p class="text">
+      <p class="text" data-aos="fade-left">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure pariatur, odio, consequatur
         totam possimus veniam sapiente impedit odit consequuntur esse voluptates tenetur ipsa
         sapiente impedit odit consequuntur esse voluptates tenetur ipsa Lorem ipsum dolor sit amet
@@ -175,9 +178,10 @@
       </p>
     </section>
 
+    <!-- Form -->
     <section class="about">
       <div class="contentBx redBg">
-        <div class="form">
+        <div class="form" data-aos="fade-right">
           <div class="inputBx">
             <input type="text" placeholder="Full Name" />
           </div>
@@ -224,5 +228,14 @@
         </li>
       </ul>
     </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 750,
+        easing: "ease",
+        delay: 0,
+      });
+    </script>
   </body>
 </html>
